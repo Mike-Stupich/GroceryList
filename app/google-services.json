@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "846371024309-7ps1s4mhvvfnmo162540rosdp9k253ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.personal.mikestupich.grocerylist",
+            "certificate_hash": "09957b9cbf9dea53b0012461120e4146fe791af5"
+          }
+        },
+        {
           "client_id": "846371024309-rtlp4ejcec8bnqvo3pml174qh0fo02a6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
