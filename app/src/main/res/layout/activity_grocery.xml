@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.personal.mikestupich.grocerylist.GroceryActivity">
+
+    <EditText
+        android:id="@+id/groceryItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.07"
+        android:hint="@string/grocery_item_hint_text" />
+
+    <ListView
+        android:id="@+id/groceryListDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="308dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></ListView>
+
+    <Button
+        android:id="@+id/AddToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grocery_add_to_list"
+        android:layout_above="@+id/groceryListDisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp" />
+
+    <EditText
+        android:id="@+id/groceryNumPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/groceryItem"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>

@@ -37,4 +37,12 @@
 
     <string name="google_status_fmt">Google User: %s</string>
     <string name="google_title_text">Google Sign In</string>
+
+    <string name="sign_in_cancelled">Sign In Cancelled</string>
+    <string name="no_internet_connection">Cound not connect to the internet...Please try again later</string>
+    <string name="unknown_error">An error occured... Please try again later</string>
+
+    <!-- Strings related to grocery list -->
+    <string name="grocery_item_hint_text">Eggs</string>
+    <string name="grocery_add_to_list">Add To Grocery List</string>
 </resources>
